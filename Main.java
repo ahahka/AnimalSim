@@ -2,10 +2,12 @@ public class Main {
     public static void main(String[] args) {
         River river = new River(100);  
   
-        river.addAnimal(new Bear(), 10);  
-        river.addAnimal(new Fish(), 20);  
-        river.addAnimal(new Bear(), 25);  
-        river.addAnimal(new Fish(), 99);  
+        river.addAnimal(new Fish(), 0);
+        river.addAnimal(new Fish(), 1);    
+        river.addAnimal(new Fish(), 2); 
+        river.addAnimal(new Fish(), 3);     
+        river.addAnimal(new Bear(), 98);  
+        river.addAnimal(new Bear(), 99);  
   
         river.print();
 
